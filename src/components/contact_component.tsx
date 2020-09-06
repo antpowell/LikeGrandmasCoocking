@@ -2,8 +2,8 @@ import React from "react";
 
 interface Props {}
 
-const MenuItem = (props: Props) => {
+const Contact = (props: Props) => {
   return <div></div>;
 };
 
-export default MenuItem;
+export default Contact;

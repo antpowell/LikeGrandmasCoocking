@@ -1,18 +1,11 @@
 import React from "react";
+import { Toolbar } from "primereact/toolbar";
+import RightNavigation from "./right_navigation_control";
 
 interface Props {}
 
 const TopNavigationControl = (props: Props) => {
-  return (
-    <nav>
-      <img src="./logo" alt="" />
-      <div className="button_group">
-        <button>Home</button>
-        <button>Menu</button>
-        <button>Contact</button>
-      </div>
-    </nav>
-  );
+  return <Toolbar right={RightNavigation} />;
 };
 
 export default TopNavigationControl;
